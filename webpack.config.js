@@ -18,5 +18,5 @@ mode: "development",
    use: ["style-loader", "css-loader"]
   }
 ]},
- plugins: [htmlPlugin]
+ plugins: [htmlPlugin],
 };
