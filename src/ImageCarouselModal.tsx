@@ -24,11 +24,11 @@ export default function ImageCarouselModal() {
           <Modal.Title>recent travels</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Carousel activeIndex={index} onSelect={handleSelect}>
+          <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/japan.png"
+                src="https://github.com/dorothychang15/personal-website/raw/master/public/japan.png"
                 alt="japan"
               />
               <Carousel.Caption>
@@ -38,7 +38,7 @@ export default function ImageCarouselModal() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/taiwan.jpg"
+                src="https://github.com/dorothychang15/personal-website/raw/master/public/taiwan.jpg"
                 alt="taiwan"
               />
               <Carousel.Caption>
@@ -48,7 +48,7 @@ export default function ImageCarouselModal() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/seattle.jpg"
+                src="https://github.com/dorothychang15/personal-website/raw/master/public/seattle.jpg"
                 alt="seattle"
               />
               <Carousel.Caption>
