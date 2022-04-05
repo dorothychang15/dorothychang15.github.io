@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Grape+Nuts');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Grape Nuts', sans-serif;
+}
+
+.main-container {
+    height: calc(100vh - 56px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
