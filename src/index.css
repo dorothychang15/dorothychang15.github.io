@@ -22,3 +22,13 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
+.navbar-bg {
+  --bs-bg-opacity: 0;
+}
+
+.snow {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+}

@@ -8,11 +8,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import ImageCarouselModal from './ImageCarouselModal';
+import Snow from './Snow';
 
 export function App() {
   return ( 
     <div>
-      <Navbar bg="light" expand="md" variant="light">
+      <Navbar bg="light" expand="md" variant="light" className="navbar-bg">
         <Container>
           <div style={{ display: 'flex', justifyContent: 'space-between', width: '100vw'}}>
             <div><Navbar.Brand>dorothy chang</Navbar.Brand></div>
@@ -20,9 +21,9 @@ export function App() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                   <Nav.Link href="/" active>home</Nav.Link>
-                  <Nav.Link href="/portfolio">portfolio</Nav.Link>
-                  <Nav.Link href="#about">about</Nav.Link>
-                  <Nav.Link href="#contact">contact</Nav.Link>
+                  <Nav.Link href="/travel">travel</Nav.Link>
+                  <Nav.Link href="/about">about</Nav.Link>
+                  <Nav.Link href="/contact">contact</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </div>
@@ -33,9 +34,9 @@ export function App() {
         <div className="main-inner-container">
           <h1>hello!</h1>
           <ImageCarouselModal />
-          
         </div>
       </div>
+      <Snow numDrops={30} />
     </div>
   );
 }
