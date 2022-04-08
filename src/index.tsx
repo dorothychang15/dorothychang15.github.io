@@ -1,5 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -9,6 +11,7 @@ import Nav from 'react-bootstrap/Nav';
 
 import ImageCarouselModal from './ImageCarouselModal';
 import Snow from './Snow';
+import Travel from './Travel';
 
 export function App() {
   return ( 
@@ -21,7 +24,9 @@ export function App() {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                   <Nav.Link href="/" active>home</Nav.Link>
-                  <Nav.Link href="/travel">travel</Nav.Link>
+                  <LinkContainer to="/travel">
+                    <Nav.Link>travel</Nav.Link>
+                  </LinkContainer>
                   <Nav.Link href="/about">about</Nav.Link>
                   <Nav.Link href="/contact">contact</Nav.Link>
                 </Nav>
@@ -41,4 +46,11 @@ export function App() {
   );
 }
 
-ReactDOM.render(<App />, document.querySelectorAll('div')[0]);
+ReactDOM.render((
+  <HashRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/travel" element={<Travel />} />
+    </Routes>
+  </HashRouter>
+), document.querySelectorAll('div')[0]);
