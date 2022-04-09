@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -27,11 +27,11 @@ export function App() {
 }
 
 ReactDOM.render((
-  <HashRouter>
+  <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/skincare" element={<Skincare />} />
       <Route path="/makeup" element={<Makeup />} />
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 ), document.querySelectorAll('div')[0]);
