@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Grape+Nuts');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:wght@200&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -36,24 +37,33 @@ h1 {
 .skincare-container {
     height: calc(100vh - 56px);
     width: 100vw;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: space-around; */
-    /* padding: 24px; */
 }
 
 .skincare-inner-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* width: 100vw; */
     width: calc(100vw - 64px);
-    /* padding: 20px; */
     padding-top: 16px;
 }
 
 .step {
     padding: 32px;
     white-space: pre-line;
+}
+
+.step-body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.step-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.step-rec {
+    margin-top: 12px;
+    margin-bottom: 12px;
 }

@@ -2,7 +2,7 @@ module.exports = {
   'env': {
     'browser': true,
     'es2021': true,
-    'node': true,
+    'node': true
   },
   'extends': [
     'eslint:recommended',
@@ -25,6 +25,10 @@ module.exports = {
     'quotes': ['error', 'single'],
     'semi': ['error', 'always'],
     'indent': ['error', 2],
-    'no-multi-spaces': ['error']
+    'no-multi-spaces': ['error'],
+    'comma-dangle': ['error', {
+      'arrays': 'never',
+      'objects': 'always'
+    }]
   }
 };
