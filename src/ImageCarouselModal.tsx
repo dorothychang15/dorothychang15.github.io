@@ -8,27 +8,27 @@ import { Image } from './skincare/SkincareContent';
 
 const images: Image[] = [
   {
-    src: './jiufen.JPG',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/jiufen.JPG',
     caption: 'jiufen, taiwan',
   },
   {
-    src: './taiwan.jpg',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/taiwan.jpg',
     caption: 'taichung, taiwan',
   },
   {
-    src: './kaohsiung.jpg',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/kaohsiung.JPG',
     caption: 'kaohsiung, taiwan',
   },
   {
-    src: '/tokyo.jpg',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/tokyo.jpg',
     caption: 'tokyo, japan',
   },
   {
-    src: './otaru.JPG',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/otaru.JPG',
     caption: 'otaru, japan',
   },
   {
-    src: './korea.jpg',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/korea.JPG',
     caption: 'seoul, korea',
   }
 ];
