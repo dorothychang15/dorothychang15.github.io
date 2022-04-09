@@ -2,63 +2,63 @@ import { StepConfig } from '../types';
 
 // images
 export const blender = {
-  src: './makeup/blender.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/blender.png',
   width: 70,
 };
 export const concealer = {
-  src: './makeup/concealer.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/concealer.png',
   width: 100,
 };
 export const foundation = {
-  src: './makeup/foundation.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/foundation.png',
   width: 60,
 };
 export const powder = {
-  src: './makeup/powder.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/powder.png',
   width: 180,
 };
 export const puff = {
-  src: './makeup/puff.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/puff.png',
   width: 140,
 };
 export const cloudpaint = {
-  src: './makeup/cloudpaint.jpeg',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/cloudpaint.jpeg',
   width: 140,
 };
 export const bronzer = {
-  src: './makeup/bronzer.png',
-  width: 140,
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/bronzer.png',
+  width: 200,
 };
 export const browPencil = {
-  src: './makeup/brow.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/brow.png',
   width: 140,
 };
 export const browGel = {
-  src: './makeup/boybrow.jpeg',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/boybrow.jpeg',
   width: 140,
 };
 export const primer = {
-  src: './makeup/primer.png',
-  width: 140,
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/primer.png',
+  width: 80,
 };
 export const eyeshadow = {
-  src: './makeup/naked3.jpeg',
-  width: 140,
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/naked3.jpeg',
+  width: 200,
 };
 export const eyeliner = {
-  src: './makeup/eyeliner.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/eyeliner.png',
   width: 140,
 };
 export const lashPrimer = {
-  src: './makeup/lash_primer.png',
-  width: 60,
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/lash_primer.png',
+  width: 65,
 };
 export const mascara = {
-  src: './makeup/mascara.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/mascara.png',
   width: 70,
 };
 export const settingSpray = {
-  src: './makeup/spray.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/makeup/spray.png',
   width: 60,
 };
   

@@ -8,27 +8,27 @@ import { Image } from './types';
 
 const images: Image[] = [
   {
-    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/jiufen.JPG',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/jiufen.JPG',
     caption: 'jiufen, taiwan',
   },
   {
-    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/taiwan.jpg',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/taiwan.jpg',
     caption: 'taichung, taiwan',
   },
   {
-    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/kaohsiung.JPG',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/kaohsiung.JPG',
     caption: 'kaohsiung, taiwan',
   },
   {
-    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/tokyo.jpg',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/tokyo.jpg',
     caption: 'tokyo, japan',
   },
   {
-    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/otaru.JPG',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/otaru.JPG',
     caption: 'otaru, japan',
   },
   {
-    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/korea.JPG',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/korea.JPG',
     caption: 'seoul, korea',
   }
 ];

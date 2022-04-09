@@ -2,55 +2,55 @@ import { StepConfig } from '../types';
 
 // images
 export const banila = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/banila.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/banila.png',
   width: 100,
 };
 export const laneigeCleanser = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_cleanser.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/laneige_cleanser.png',
   width: 80,
 };
 export const skii = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skii.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/skii.png',
   width: 100,
 };
 export const freshEssence = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/fresh_essence.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/fresh_essence.png',
   width: 120,
 };
 export const vitaminc = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/vitaminc.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/vitaminc.png',
   width: 80,
 };
 export const retinol = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/retinol.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/retinol.png',
   width: 150,
 };
 export const caudalie = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/caudalie.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/caudalie.png',
   width: 70,
 };
 export const laneigeCream = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_cream.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/laneige_cream.png',
   width: 160,
 };
 export const laneigeSleeping = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_sleeping.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/laneige_sleeping.png',
   width: 120,
 };
 export const laneigeLip = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_lip.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/laneige_lip.png',
   width: 120,
 };
 export const shiseido = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/shiseido.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/shiseido.png',
   width: 120,
 };
 export const drjart = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/drjart.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/drjart.png',
   width: 120,
 };
 export const pipette = {
-  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/pipette.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/pipette.png',
   width: 120,
 };
 
