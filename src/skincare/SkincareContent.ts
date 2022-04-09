@@ -13,55 +13,55 @@ export type Image = {
 
 // images
 export const banila = {
-  src: './banila.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/banila.png',
   width: 120,
 };
 export const laneigeCleanser = {
-  src: './laneige_cleanser.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_cleanser.png',
   width: 110,
 };
 export const skii = {
-  src: './skii.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skii.png',
   width: 100,
 };
 export const freshEssence = {
-  src: './fresh_essence.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/fresh_essence.png',
   width: 120,
 };
 export const vitaminc = {
-  src: './vitaminc.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/vitaminc.png',
   width: 80,
 };
 export const retinol = {
-  src: './retinol.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/retinol.png',
   width: 150,
 };
 export const caudalie = {
-  src: './caudalie.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/caudalie.png',
   width: 100,
 };
 export const laneigeCream = {
-  src: './laneige_cream.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_cream.png',
   width: 150,
 };
 export const laneigeSleeping = {
-  src: './laneige_sleeping.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_sleeping.png',
   width: 120,
 };
 export const laneigeLip = {
-  src: './laneige_lip.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/laneige_lip.png',
   width: 120,
 };
 export const shiseido = {
-  src: './shiseido.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/shiseido.png',
   width: 120,
 };
 export const drjart = {
-  src: './drjart.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/drjart.png',
   width: 120,
 };
 export const pipette = {
-  src: './pipette.png',
+  src: 'https://github.com/dorothychang15/personal-website/raw/master/public/pipette.png',
   width: 120,
 };
 
