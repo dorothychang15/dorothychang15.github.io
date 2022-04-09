@@ -20,7 +20,7 @@ const images: Image[] = [
     caption: 'kaohsiung, taiwan',
   },
   {
-    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/tokyo.jpg',
+    src: 'https://github.com/dorothychang15/personal-website/raw/master/public/travel/tokyo.JPG',
     caption: 'tokyo, japan',
   },
   {
