@@ -7,6 +7,7 @@ export type StepConfig = {
 
 export type Image = {
   src: string;
+  caption?: string;
   height?: number;
   width?: number;
 }
