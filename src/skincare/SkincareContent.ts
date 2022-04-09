@@ -3,19 +3,19 @@ import { StepConfig } from '../types';
 // images
 export const banila = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/banila.png',
-  width: 100,
+  width: 120,
 };
 export const laneigeCleanser = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/laneige_cleanser.png',
-  width: 80,
+  width: 100,
 };
 export const skii = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/skii.png',
-  width: 100,
+  width: 70,
 };
 export const freshEssence = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/fresh_essence.png',
-  width: 120,
+  width: 80,
 };
 export const vitaminc = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/vitaminc.png',
@@ -27,11 +27,11 @@ export const retinol = {
 };
 export const caudalie = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/caudalie.png',
-  width: 70,
+  width: 75,
 };
 export const laneigeCream = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/laneige_cream.png',
-  width: 160,
+  width: 140,
 };
 export const laneigeSleeping = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/laneige_sleeping.png',
@@ -47,7 +47,7 @@ export const shiseido = {
 };
 export const drjart = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/drjart.png',
-  width: 120,
+  width: 100,
 };
 export const pipette = {
   src: 'https://github.com/dorothychang15/personal-website/raw/master/public/skincare/pipette.png',
