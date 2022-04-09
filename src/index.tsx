@@ -8,7 +8,8 @@ import './index.css';
 import Nav from './Nav';
 import ImageCarouselModal from './ImageCarouselModal';
 import Snow from './Snow';
-import Skincare from './skincare/Skincare';
+import Skincare from './skincare';
+import Makeup from './makeup';
 
 export function App() {
   return ( 
@@ -30,6 +31,7 @@ ReactDOM.render((
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/skincare" element={<Skincare />} />
+      <Route path="/makeup" element={<Makeup />} />
     </Routes>
   </HashRouter>
 ), document.querySelectorAll('div')[0]);

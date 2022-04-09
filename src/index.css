@@ -67,9 +67,6 @@ h1 {
 }
 
 .step-col {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     height: 100%;
 }
 
@@ -88,6 +85,18 @@ h1 {
 
 .center {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    padding: 64px;
+    width: 100%;
+}
+
+.centerText {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

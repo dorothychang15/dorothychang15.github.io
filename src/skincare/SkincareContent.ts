@@ -1,16 +1,4 @@
-export type StepConfig = {
-    title: string;
-    body: string;
-    recs: string[];
-    imgs?: Image[];
-}
-
-export type Image = {
-  src: string;
-  caption?: string;
-  height?: number;
-  width?: number;
-}
+import { StepConfig } from '../types';
 
 // images
 export const banila = {

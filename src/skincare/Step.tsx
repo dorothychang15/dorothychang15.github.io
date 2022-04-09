@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { StepConfig } from './SkincareContent';
+import { StepConfig } from '../types';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 export default function Step({
-  title, body, recs, imgs,
+  title, body, recs, imgs, centerRecs,
 }: StepConfig) {
   return (
     <div className='step'>
@@ -23,7 +23,7 @@ export default function Step({
                   <img key={img.src} src={img.src} width={img.width} height={img.height} />
                 ))}
               </div>
-              <div className='step-body'>
+              <div className={`step-body ${centerRecs ? 'centerText' : ''}`}>
                 {recs.map(rec => (
                   <div key={rec} className='step-rec'>{rec} <br /></div>
                 ))}

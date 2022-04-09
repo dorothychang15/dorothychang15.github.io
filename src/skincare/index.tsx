@@ -1,10 +1,11 @@
 import React from 'react';
-
-import ListGroup from 'react-bootstrap/ListGroup';
 import { useSpring, animated } from 'react-spring';
 
+import ListGroup from 'react-bootstrap/ListGroup';
+
 import Nav from '../Nav';
-import { skincareContent, StepConfig } from './SkincareContent';
+import { StepConfig } from '../types';
+import { skincareContent } from './SkincareContent';
 import Step from './Step';
 import Suncare from './Suncare';
 
@@ -30,7 +31,7 @@ export default function Skincare() {
             <div className="skincare-header title">
               <h2>daytime</h2>
               &nbsp;
-              <animated.div className="rain" style={dayStyle}><h2>☀</h2></animated.div>
+              <animated.div style={dayStyle}><h2>☀</h2></animated.div>
             </div>
             <ListGroup as="ol" numbered>
               <ListGroup.Item as="li">cleanser</ListGroup.Item>
@@ -45,7 +46,7 @@ export default function Skincare() {
             <div className="skincare-header title">
               <h2 >nighttime</h2>
               &nbsp;
-              <animated.div className="rain" style={nightStyle}><h2>☾</h2></animated.div>
+              <animated.div style={nightStyle}><h2>☾</h2></animated.div>
             </div>
             <ListGroup as="ol" numbered>
               <ListGroup.Item as="li">remove makeup</ListGroup.Item>

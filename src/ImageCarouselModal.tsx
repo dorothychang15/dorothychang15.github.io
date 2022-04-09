@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import Modal from 'react-bootstrap/Modal';
 
-import { Image } from './skincare/SkincareContent';
+import { Image } from './types';
 
 const images: Image[] = [
   {
